@@ -5,8 +5,6 @@ Height = float(input("Enter height in cm: "))
 
 HeightMsq = (Height/100)**2
 
-bmi = Weight / HeightMsq
+bmi = round(Weight / HeightMsq,2)
 
-BMI = round(bmi,2)
-
-print("Your BMI is",BMI," m2")
+print("Your BMI is",bmi)
